@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
 
-/* HeroSection.css */
 .overlay-text h1 {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     color: rgb(113, 80, 8);
@@ -8,7 +7,7 @@
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
     /* This adds a shadow for better readability */
     font-size: 3rem;
-    /* Increase the size as needed */
+    animation: bounceIn 1s ease;
 }
 
 
@@ -32,5 +31,13 @@
     /* Adjust the size as needed */
     padding: 20px;
     /* Adjust padding as needed */
-    /* Optionally add more styling here */
+    opacity: 0;
+    /* Start with 0 opacity */
+    transition: opacity 1s ease-in-out;
+    /* Add a transition effect */
+}
+
+.overlay-text.fade-in {
+    opacity: 1;
+    /* Set opacity to 1 for the fade-in effect */
 }

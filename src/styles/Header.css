@@ -21,8 +21,15 @@
 }
 
 .logo img {
-    max-height: 80px;
-    /* Adjust the size as needed */
+    height: auto;
+    /* maintain the aspect ratio */
+    width: 30%;
+    /* or whatever size you prefer */
+    max-width: 200px;
+    /* adjust this to set a maximum size */
+    /* additional properties to center the image if necessary */
+    display: block;
+    margin: 0 auto;
 }
 
 .nav-links {
