@@ -1,20 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+
 /* HeroSection.css */
+.overlay-text h1 {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: rgb(113, 80, 8);
+    /* Choose a color that stands out against your background */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    /* This adds a shadow for better readability */
+    font-size: 3rem;
+    /* Increase the size as needed */
+}
+
+
+
 .hero-section {
     position: relative;
+    text-align: center;
+}
+
+.background-image {
     height: 400px;
     /* Adjust the height as needed */
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.hero-text {
-    color: white;
-    /* Or any color that contrasts well with your image */
+.overlay-text {
+    color: rgb(216, 160, 39);
+    /* Or any color that contrasts well with your background */
     font-size: 2.5rem;
     /* Adjust the size as needed */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    /* Optional: Adds a shadow to the text for better readability */
+    padding: 20px;
+    /* Adjust padding as needed */
+    /* Optionally add more styling here */
 }

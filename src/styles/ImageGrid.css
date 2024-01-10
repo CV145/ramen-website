@@ -1,0 +1,34 @@
+/* ImageGrid.css */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* creates four columns */
+    grid-template-rows: repeat(2, 1fr);
+    /* creates two rows */
+    gap: 10px;
+}
+
+.image-grid .grid-item {
+    overflow: hidden;
+}
+
+.image-grid .grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* ensures images cover their containers */
+}
+
+.image-grid .grid-item.large {
+    grid-column: span 2;
+    /* spans two columns */
+    grid-row: span 2;
+    /* spans two rows */
+}
+
+.image-grid .grid-item.small {
+    grid-column: span 1;
+    /* spans one column */
+    grid-row: span 1;
+    /* spans one row */
+}

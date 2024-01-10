@@ -1,12 +1,15 @@
 // HeroSection.jsx
 import React from 'react';
 import '../styles/HeroSection.css'; // Make sure to create this CSS file
-import backgroundImg from '../assets/bowl.png'; // Path to your background image
+import backgroundImg from '../assets/bowl.png';
 
 function HeroSection() {
     return (
-        <div className="hero-section" style={{ backgroundImage: `url(${backgroundImg})` }}>
-            <h1 className="hero-text">We Love Noodles</h1>
+        <div className="hero-section">
+            <div className="background-image" style={{ backgroundImage: `url(${backgroundImg})` }}></div>
+            <div className="overlay-text">
+                <h1>We Love Noodles.</h1>
+            </div>
         </div>
     );
 }

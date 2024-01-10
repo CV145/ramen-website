@@ -1,0 +1,45 @@
+/* Footer.css */
+.footer {
+    background-color: #333;
+    /* Or any color you prefer */
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    /* Increased padding */
+    font-size: 1rem;
+    /* Adjusted font size */
+}
+
+.footer h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    /* Increased spacing below the heading */
+    font-size: 1.5rem;
+    /* Larger font size for the heading */
+}
+
+.footer p {
+    margin-bottom: 20px;
+    /* Increased spacing below the paragraph */
+}
+
+.footer .social-links {
+    margin-top: 20px;
+    /* Increased spacing above the social links */
+    font-size: 1.2rem;
+    /* Larger font size for the social links */
+}
+
+.footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    /* Increased spacing between links */
+    padding: 8px;
+    /* Larger padding for clickable area */
+}
+
+.footer .social-links a:hover {
+    text-decoration: underline;
+    /* Visual feedback on hover */
+}
